@@ -43,6 +43,7 @@ function playGame() {
   document.querySelector('.container').style.display = "flex";
   document.querySelector('.secret').style.display = "flex";
   document.getElementById('playerDisplay').style.display = "block";
+  document.getElementById('playerDisplay').style.display = "block";
 };
 
 //Reset Game
@@ -61,8 +62,6 @@ function resetGame() {
     winner.classList.remove('resultBlue');
     winner.classList.remove('resultGreen');
     winner.classList.add('neutral');
-
-    document.getElementById('playerDisplay').style.display = "block";
 
     board = [
       ['', '', ''],
