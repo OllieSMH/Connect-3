@@ -43,7 +43,6 @@ function playGame() {
   document.querySelector('.container').style.display = "flex";
   document.querySelector('.secret').style.display = "flex";
   document.getElementById('playerDisplay').style.display = "block";
-  document.getElementById('playerDisplay').style.display = "block";
 };
 
 //Reset Game
